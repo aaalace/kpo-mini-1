@@ -1,13 +1,18 @@
-# Mini HW 1 [ Software design 2025 ]
+# Mini-1 [ Software Design 2025 ]
 #### Tazeev Almaz 235
 
 ### How To Launch?
-```bash
-# MacOS/Linux
-./gradlew bootRun --console=plain  
 
-# Windows
-gradlew.bat bootRun --console=plain  
+###### MacOS/Linux
+```bash
+./gradlew build
+java -jar build/libs/zoo-almaz.jar 
+```
+
+###### Windows
+```bash
+gradlew.bat build
+java -jar build/libs/zoo-almaz.jar 
 ```
 
 *No extra configuration needed
